@@ -1,6 +1,6 @@
 sentence-transformers
-scikit-learn
 python-docx
+python-dotenv
 numpy
+openai
 pypdf
-torch
