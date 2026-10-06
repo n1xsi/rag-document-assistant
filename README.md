@@ -1,11 +1,13 @@
 <h1 align="center">
-  
+
   rag-document-assistant
 
-  [![Python](https://custom-icon-badges.demolab.com/badge/Python-white?style=for-the-badge&logo=pythonn)](#)
-  [![NumPy](https://img.shields.io/badge/numpy-white?style=for-the-badge&logo=numpy&logoColor=013243)](#)
-  [![scikit-learn](https://img.shields.io/badge/scikit--learn-white?style=for-the-badge&logo=scikit-learn&logoColor=f7931e)](#)
-  
+  [![Python](https://custom-icon-badges.demolab.com/badge/Python-3.14-gray?style=for-the-badge&logo=pythonn&labelColor=white)](#)
+  [![NumPy](https://img.shields.io/badge/numpy-2.5.3-gray?style=for-the-badge&logo=numpy&logoColor=013243&labelColor=white)](#)
+  [![pytest](https://img.shields.io/badge/pytest-9.1.1-gray?style=for-the-badge&logo=pytest&logoColor=0A9EDC&labelColor=white)](#) <br>
+  [![Hugging Face](https://img.shields.io/badge/Sentence--Transformers-white?style=for-the-badge&logo=huggingface&logoColor=FFD21E)](#)
+  [![OpenAI](https://custom-icon-badges.demolab.com/badge/OpenAI--compatible-white?style=for-the-badge&logo=openaiblack)](#)
+
 </h1>
 
 Базовая реализация задачи №8 (DocumentAssistant) с использованием подхода RAG. Тестовое задание выполнялось для IT Hub «Северстали».
