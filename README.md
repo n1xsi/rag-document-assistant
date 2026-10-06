@@ -1,8 +1,10 @@
 <h1 align="center">
 
+  <img width="70%" alt="preview" src="https://github.com/user-attachments/assets/8d409568-c321-49fc-804a-d30d07e07fab" />
+
   rag-document-assistant
 
-  [![Python](https://custom-icon-badges.demolab.com/badge/Python-3.14-gray?style=for-the-badge&logo=pythonn&labelColor=white)](#)
+  [![Python](https://custom-icon-badges.demolab.com/badge/Python-3.10+-gray?style=for-the-badge&logo=pythonn&labelColor=white)](#)
   [![NumPy](https://img.shields.io/badge/numpy-2.5.3-gray?style=for-the-badge&logo=numpy&logoColor=013243&labelColor=white)](#)
   [![pytest](https://img.shields.io/badge/pytest-9.1.1-gray?style=for-the-badge&logo=pytest&logoColor=0A9EDC&labelColor=white)](#) <br>
   [![Hugging Face](https://img.shields.io/badge/Sentence--Transformers-white?style=for-the-badge&logo=huggingface&logoColor=FFD21E)](#)
@@ -14,7 +16,7 @@
 каталог `data/`, задаёте вопрос на естественном языке и получаете ответ, построенный **только** на
 содержимом ваших документов, со ссылками на файлы-источники.
 
-## 🌟 Что умеет
+## 🌟 Что проект умеет
 
 * **Реальная генерация** через любой OpenAI-compatible API: GPT/Claude/DeepSeek/Qwen/GLM и
   сторонние роутеры — провайдер, модель и ключ задаются в `.env`;
@@ -168,9 +170,11 @@ pytest
 роутер. Пример результата — вопрос по-русски к англоязычному документу:
 
 > **Вопрос:** Что такое бизнес-модель?
+> 
 > **Ответ:** Бизнес-модель — это набор предположений, который описывает, как работает ваш бизнес и
 > как он зарабатывает деньги. Она показывает, как инвестиции и деятельность (входы) создают
 > ценность для клиентов (выходы)... [University Success.docx]
+> 
 > **Источники:** University Success.docx
 
 Вопрос вне тематики документов («Какая погода сегодня в Москве?») корректно отклоняется без
